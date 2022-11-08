@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
 
 # In[1]:
 
@@ -146,9 +144,6 @@ layout = go.Layout(title = 'UMAP Dimensionality Reduction', width = 1500, height
                     yaxis = dict(title='Second Dimension'))
 fig = go.Figure(data=data_, layout=layout)
 fig.show()
-
-
-# In[ ]:
 
 
 
